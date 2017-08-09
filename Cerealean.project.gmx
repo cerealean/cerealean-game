@@ -42,10 +42,12 @@
     <background>background\bg_grassland</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_hero</object>
     <object>objects\obj_invisible_wall</object>
+    <objects name="enemies">
+      <object>objects\obj_zombie</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

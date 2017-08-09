@@ -66,6 +66,7 @@
     <instance objName="obj_invisible_wall" x="528" y="208" name="inst_978D7187" locked="0" code="" scaleX="10.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_invisible_wall" x="528" y="208" name="inst_51DB30FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_invisible_wall" x="592" y="112" name="inst_71A60A0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zombie" x="80" y="176" name="inst_C0378B5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_grassland" x="0" y="16" w="64" h="32" xo="0" yo="128" id="10000003" name="inst_BC067BC1" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
