@@ -20,6 +20,7 @@
         <sprite>sprites\spr_hero_run_down</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_foo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grassland</background>
@@ -27,6 +28,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_hero</object>
+    <object>objects\obj_invisible_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

@@ -57,8 +57,15 @@
   </views>
   <instances>
     <instance objName="obj_hero" x="304" y="208" name="inst_783BA2B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="0" y="240" name="inst_201CCEA7" locked="0" code="" scaleX="5.25" scaleY="60.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="640" y="240" name="inst_4327CC8E" locked="0" code="" scaleX="4.5" scaleY="60.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="114" y="0" name="inst_29E9E359" locked="0" code="" scaleX="24.75" scaleY="3.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="464" y="0" name="inst_7CCBD1D8" locked="0" code="" scaleX="48.5" scaleY="4.5" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="bg_grassland" x="0" y="16" w="64" h="32" xo="0" yo="128" id="10000003" name="inst_BC067BC1" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_grassland" x="0" y="-16" w="64" h="32" xo="0" yo="96" id="10000004" name="inst_A22059A6" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
