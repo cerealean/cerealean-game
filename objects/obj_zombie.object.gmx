@@ -50,17 +50,9 @@ image_speed = (walkSpeed/room_speed);
           <argument>
             <kind>1</kind>
             <string>var collisionDistance = 2;
-if(x - other.x &lt;= collisionDistance){
-    other.x += walkSpeed;
-}
-if(other.x - x &lt;= collisionDistance){
-    other.x -= walkSpeed;
-}
-if(y - other.y &lt;= collisionDistance){
-    other.y += walkSpeed;
-}
-if(other.y - y &lt;= collisionDistance){
-    other.y -= walkSpeed;
+if(distance_to_object(obj_hero) &lt;= collisionDistance){
+    obj_hero.x = obj_hero.xprevious;
+    obj_hero.y = obj_hero.yprevious;
 }
 </string>
           </argument>
