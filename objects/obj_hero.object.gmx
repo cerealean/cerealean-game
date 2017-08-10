@@ -54,25 +54,25 @@ var MOVEDOWN = keyboard_check(vk_down);
 var FIRE = keyboard_check(vk_space);
  
 //Move Player
-if (MOVELEFT &amp;&amp; place_empty(x - global.walkSpeed, y)) 
+if (MOVELEFT &amp;&amp; place_free(x - global.walkSpeed, y)) 
 { 
     x -= global.walkSpeed; 
     sprite_index = spr_hero_run_left;
 }
  
-if (MOVERIGHT &amp;&amp; place_empty(x + global.walkSpeed, y)) 
+if (MOVERIGHT &amp;&amp; place_free(x + global.walkSpeed, y)) 
 { 
     x += global.walkSpeed; 
     sprite_index = spr_hero_run_right;
 }
  
-if (MOVEUP &amp;&amp; place_empty(x, y - global.walkSpeed)) 
+if (MOVEUP &amp;&amp; place_free(x, y - global.walkSpeed)) 
 { 
     y -= global.walkSpeed; 
     sprite_index = spr_hero_run_up;
 }
  
-if (MOVEDOWN &amp;&amp; place_empty(x, y + global.walkSpeed)) 
+if (MOVEDOWN &amp;&amp; place_free(x, y + global.walkSpeed)) 
 { 
     y += global.walkSpeed; 
     sprite_index = spr_hero_run_down;

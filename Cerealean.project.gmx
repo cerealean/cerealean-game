@@ -48,9 +48,16 @@
           <sprite>sprites\spr_zombie_stance_left</sprite>
           <sprite>sprites\spr_zombie_stance_right</sprite>
           <sprite>sprites\spr_zombie_stance_up_right</sprite>
+          <sprite>sprites\spr_zombie_stance_up_left</sprite>
+          <sprite>sprites\spr_zombie_stance_down_left</sprite>
+          <sprite>sprites\spr_zombie_stance_down_right</sprite>
         </sprites>
         <sprites name="move">
           <sprite>sprites\spr_zombie_move_up</sprite>
+          <sprite>sprites\spr_zombie_move_up_right</sprite>
+          <sprite>sprites\spr_zombie_move_down_right</sprite>
+          <sprite>sprites\spr_zombie_move_down_left</sprite>
+          <sprite>sprites\spr_zombie_move_up_left</sprite>
           <sprite>sprites\spr_zombie_move_right</sprite>
           <sprite>sprites\spr_zombie_move_down</sprite>
           <sprite>sprites\spr_zombie_move_left</sprite>
@@ -65,7 +72,6 @@
   <scripts name="scripts">
     <script>scripts\SetupGameGlobals.gml</script>
   </scripts>
-  <shaders name="shaders"/>
   <objects name="objects">
     <object>objects\obj_hero</object>
     <object>objects\obj_invisible_wall</object>
@@ -73,6 +79,7 @@
       <object>objects\obj_zombie</object>
     </objects>
     <object>objects\obj_enemy_controller</object>
+    <object>objects\obj_solid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game_menu</room>
