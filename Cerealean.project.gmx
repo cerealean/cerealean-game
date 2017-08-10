@@ -47,6 +47,7 @@
           <sprite>sprites\spr_zombie_stance_down</sprite>
           <sprite>sprites\spr_zombie_stance_left</sprite>
           <sprite>sprites\spr_zombie_stance_right</sprite>
+          <sprite>sprites\spr_zombie_stance_up_right</sprite>
         </sprites>
         <sprites name="move">
           <sprite>sprites\spr_zombie_move_up</sprite>
