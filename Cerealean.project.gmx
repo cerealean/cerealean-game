@@ -3,6 +3,25 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles">
+    <datafile>
+      <name>GameGlobals.ini</name>
+      <exists>-1</exists>
+      <size>0</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>GameGlobals.ini</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -42,14 +61,20 @@
     <background>background\bg_grassland</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\SetupGameGlobals.gml</script>
+  </scripts>
+  <shaders name="shaders"/>
   <objects name="objects">
     <object>objects\obj_hero</object>
     <object>objects\obj_invisible_wall</object>
     <objects name="enemies">
       <object>objects\obj_zombie</object>
     </objects>
+    <object>objects\obj_enemy_controller</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_game_menu</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
