@@ -75,10 +75,13 @@ enemyHealth = 20;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>SetObjectSpeed(defaultSpeed);
-var moveTowardsX = random_range(0, room_width);
-var moveTowardsY = random_range(0, room_height);
-move_towards_point(moveTowardsX, moveTowardsY, speed);
+            <string>var isNextToPlayer = distance_to_object(obj_hero) &lt;= defaultSpeed;
+if(!isNextToPlayer){
+    SetObjectSpeed(defaultSpeed);
+    var moveTowardsX = random_range(0, room_width);
+    var moveTowardsY = random_range(0, room_height);
+    move_towards_point(moveTowardsX, moveTowardsY, speed);
+}
 </string>
           </argument>
         </arguments>
@@ -128,15 +131,15 @@ move_towards_point(moveTowardsX, moveTowardsY, speed);
             <string>///Movement Behavior
 var distanceToPlayer = distance_to_object(obj_hero);
 var placeFree = place_free(x+defaultSpeed,y+defaultSpeed);
-var isCloseToPlayer = distanceToPlayer &lt;= speed * 3;
-var isNextToPlayer = distanceToPlayer &lt;= speed;
-if(isCloseToPlayer &amp;&amp; placeFree){
+var isCloseToPlayer = distanceToPlayer &lt;= defaultSpeed * 3;
+var isNextToPlayer = distanceToPlayer &lt;= defaultSpeed;
+if(isNextToPlayer){
+    SetObjectSpeed(0);
+}
+else if(isCloseToPlayer &amp;&amp; placeFree){
     alarm[0] = -1;
     direction = point_direction(x,y,obj_hero.x,obj_hero.y);
     SetObjectSpeed(speed);
-}
-else if(isNextToPlayer){
-    SetObjectSpeed(0);
 }
 else if(!isCloseToPlayer &amp;&amp; alarm[0] == -1){
     alarm[0] = room_speed * 4;
