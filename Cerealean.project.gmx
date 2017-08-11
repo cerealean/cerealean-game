@@ -39,9 +39,13 @@
         </sprites>
         <sprites name="run">
           <sprite>sprites\spr_hero_run_left</sprite>
+          <sprite>sprites\spr_hero_run_up_left</sprite>
+          <sprite>sprites\spr_hero_run_up_right</sprite>
           <sprite>sprites\spr_hero_run_up</sprite>
           <sprite>sprites\spr_hero_run_right</sprite>
           <sprite>sprites\spr_hero_run_down</sprite>
+          <sprite>sprites\spr_hero_run_down_right</sprite>
+          <sprite>sprites\spr_hero_run_down_left</sprite>
         </sprites>
       </sprites>
       <sprites name="head">
