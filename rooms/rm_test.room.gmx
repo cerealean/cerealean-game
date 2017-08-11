@@ -57,19 +57,12 @@
   </views>
   <instances>
     <instance objName="obj_hero" x="304" y="208" name="inst_783BA2B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="640" y="240" name="inst_4327CC8E" locked="0" code="" scaleX="4.5" scaleY="60.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="114" y="0" name="inst_29E9E359" locked="0" code="" scaleX="24.75" scaleY="3.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="464" y="0" name="inst_7CCBD1D8" locked="0" code="" scaleX="48.5" scaleY="4.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="464" y="128" name="inst_A0683A6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="592" y="112" name="inst_71A60A0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="512" y="0" name="inst_29E9E359" locked="0" code="" scaleX="128" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_zombie" x="80" y="176" name="inst_C0378B5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="368" y="416" name="inst_3C98E682" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="352" y="432" name="inst_09AE25B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="368" y="432" name="inst_181AD939" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="288" y="512" name="inst_682E218D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="432" y="496" name="inst_56713FCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="272" y="464" name="inst_0930D5AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_invisible_wall" x="288" y="480" name="inst_A5A09FD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="240" y="0" name="inst_F3284ACE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="512" y="768" name="inst_BF3227AE" locked="0" code="" scaleX="128" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="1024" y="384" name="inst_0B0F0355" locked="0" code="" scaleX="2" scaleY="100" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisible_wall" x="0" y="384" name="inst_D08F837F" locked="0" code="" scaleX="2" scaleY="100" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_grassland" x="0" y="16" w="64" h="32" xo="0" yo="128" id="10000003" name="inst_BC067BC1" depth="1000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
