@@ -1,4 +1,6 @@
 ///SetObjectSpeed(newSpeed)
 var newSpeed = argument0;
 speed = newSpeed;
-image_speed = (speed/room_speed);
+if(speed > 0){
+    image_speed = ((speed*2)/room_speed);
+}

@@ -129,12 +129,13 @@ move_towards_point(moveTowardsX, moveTowardsY, speed);
 var distanceToPlayer = distance_to_object(obj_hero);
 var placeFree = place_free(x+defaultSpeed,y+defaultSpeed);
 var isCloseToPlayer = distanceToPlayer &lt;= speed * 3;
+var isNextToPlayer = distanceToPlayer &lt;= speed;
 if(isCloseToPlayer &amp;&amp; placeFree){
     alarm[0] = -1;
     direction = point_direction(x,y,obj_hero.x,obj_hero.y);
-    SetObjectSpeed(defaultSpeed);
+    SetObjectSpeed(speed);
 }
-else if(isCloseToPlayer &amp;&amp; (distanceToPlayer &lt; defaultSpeed || !placeFree)){
+else if(isNextToPlayer){
     SetObjectSpeed(0);
 }
 else if(!isCloseToPlayer &amp;&amp; alarm[0] == -1){
