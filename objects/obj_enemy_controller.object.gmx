@@ -128,7 +128,7 @@ move_towards_point(moveTowardsX, moveTowardsY, speed);
             <string>///Movement Behavior
 var distanceToPlayer = distance_to_object(obj_hero);
 var placeFree = place_free(x+defaultSpeed,y+defaultSpeed);
-var isCloseToPlayer = distanceToPlayer &lt;= room_width / 3;
+var isCloseToPlayer = distanceToPlayer &lt;= speed * 3;
 if(isCloseToPlayer &amp;&amp; placeFree){
     alarm[0] = -1;
     direction = point_direction(x,y,obj_hero.x,obj_hero.y);
