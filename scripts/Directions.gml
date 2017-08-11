@@ -1,4 +1,4 @@
-enum Directions {
+enum Facing {
     Up,
     UpRight,
     Right,

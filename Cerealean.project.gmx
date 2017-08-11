@@ -74,7 +74,7 @@
     <scripts name="Enums">
       <script>scripts\Directions.gml</script>
     </scripts>
-    <script>scripts\script3.gml</script>
+    <script>scripts\DetermineFacingDirection.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>
