@@ -119,6 +119,7 @@
     <objects name="hero">
       <object>objects\obj_hero</object>
       <object>objects\obj_hero_head</object>
+      <object>objects\obj_hero_torso</object>
     </objects>
     <objects name="textures">
       <object>objects\obj_invisible_wall</object>

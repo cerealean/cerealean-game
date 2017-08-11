@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_hero</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = (global.walkSpeed/room_speed);
+            <string>///Set variables
+event_inherited();
+image_speed = (global.walkSpeed/room_speed);
 </string>
           </argument>
         </arguments>
@@ -74,7 +76,7 @@ SetLocationToPlayer();
 var dir = DetermineFacingDirection(obj_hero.direction);
 switch(dir){
     case Facing.Up:
-        if(obj_hero.speed &gt; 0){
+        if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_up;
         }
         else{
@@ -82,7 +84,7 @@ switch(dir){
         }
         break;
     case Facing.Down:
-        if (obj_hero.speed &gt; 0){
+        if (global.isHeroMoving){
             sprite_index = spr_long_hair_run_down;
         }
         else {
@@ -90,7 +92,7 @@ switch(dir){
         }
         break;
     case Facing.Left:
-        if(obj_hero.speed &gt; 0){
+        if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_left;
         }
         else {
@@ -98,7 +100,7 @@ switch(dir){
         }
         break;
     case Facing.Right:
-        if(obj_hero.speed &gt; 0){
+        if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_right;
         }
         else {
