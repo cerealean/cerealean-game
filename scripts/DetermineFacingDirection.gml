@@ -1,6 +1,7 @@
+///DetermineFacingDirection(dir)
 var dir = argument0;
 
-if((dir > 337.5 && dir =< 360) || (dir =< 22.5 && dir >= 0)){
+if((dir > 337.5 && dir <= 360) || (dir <= 22.5 && dir >= 0)){
     return Facing.Right;
 }
 else if(dir > 22.5 && dir <= 67.5){

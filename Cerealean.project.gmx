@@ -75,6 +75,7 @@
       <script>scripts\Directions.gml</script>
     </scripts>
     <script>scripts\DetermineFacingDirection.gml</script>
+    <script>scripts\SetObjectSpeed.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>
