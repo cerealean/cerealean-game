@@ -60,13 +60,13 @@ if(keyboard_check(vk_nokey)){
     if(sprite_index == spr_hero_run_down){
         sprite_index = spr_hero_stance_down;
     }
-    if(sprite_index == spr_hero_run_up){
+    else if(sprite_index == spr_hero_run_up){
         sprite_index = spr_hero_stance_up;
     }
-    if(sprite_index == spr_hero_run_right){
+    else if(sprite_index == spr_hero_run_right){
         sprite_index = spr_hero_stance_right;
     }
-    if(sprite_index == spr_hero_run_left){
+    else if(sprite_index == spr_hero_run_left){
         sprite_index = spr_hero_stance_left;
     }
 }
