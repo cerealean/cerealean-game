@@ -62,6 +62,16 @@
           <sprite>sprites\spr_zombie_move_down</sprite>
           <sprite>sprites\spr_zombie_move_left</sprite>
         </sprites>
+        <sprites name="attack">
+          <sprite>sprites\spr_zombie_slam_left</sprite>
+          <sprite>sprites\spr_zombie_slam_up_left</sprite>
+          <sprite>sprites\spr_zombie_slam_up</sprite>
+          <sprite>sprites\spr_zombie_slam_up_right</sprite>
+          <sprite>sprites\spr_zombie_slam_right</sprite>
+          <sprite>sprites\spr_zombie_slam_down_right</sprite>
+          <sprite>sprites\spr_zombie_slam_down</sprite>
+          <sprite>sprites\spr_zombie_slam_down_left</sprite>
+        </sprites>
       </sprites>
     </sprites>
   </sprites>
