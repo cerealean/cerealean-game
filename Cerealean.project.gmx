@@ -86,6 +86,7 @@
     </scripts>
     <script>scripts\DetermineFacingDirection.gml</script>
     <script>scripts\SetObjectSpeed.gml</script>
+    <script>scripts\IsNextToPlayer.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>

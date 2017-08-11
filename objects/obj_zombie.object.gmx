@@ -26,74 +26,98 @@
           <argument>
             <kind>1</kind>
             <string>///Movement and stance sprite
-
-    var facing = DetermineFacingDirection(direction);
-    switch(facing){
-        case Facing.Up:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_up;
-            }
-            else{
-                sprite_index = spr_zombie_stance_up;
-            }
-            break;
-        case Facing.UpLeft:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_up_left;
-            }
-            else{
-                sprite_index = spr_zombie_stance_up_left;
-            }
-            break;
-        case Facing.UpRight:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_up_right;
-            }
-            else{
-                sprite_index = spr_zombie_stance_up_right;
-            }
-            break;
-        case Facing.Right:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_right;
-            }
-            else{
-                sprite_index = spr_zombie_stance_right;
-            }
-            break;
-        case Facing.Left:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_left;
-            }
-            else{
-                sprite_index = spr_zombie_stance_left;
-            }
-            break;
-        case Facing.Down:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_down;
-            }
-            else{
-                sprite_index = spr_zombie_stance_down;
-            }
-            break;
-        case Facing.DownRight:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_down_right;
-            }
-            else{
-                sprite_index = spr_zombie_stance_down_right;
-            }
-            break;
-        case Facing.DownLeft:
-            if(speed &gt; 0){
-                sprite_index = spr_zombie_move_down_left;
-            }
-            else{
-                sprite_index = spr_zombie_stance_down_left;
-            }
-            break;
-    }
+var isNextToPlayer = IsNextToPlayer(defaultSpeed);
+var facing = DetermineFacingDirection(direction);
+switch(facing){
+    case Facing.Up:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_up;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_up;
+        }
+        else{
+            sprite_index = spr_zombie_stance_up;
+        }
+        break;
+    case Facing.UpLeft:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_up_left;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_up_left;
+        }
+        else{
+            sprite_index = spr_zombie_stance_up_left;
+        }
+        break;
+    case Facing.UpRight:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_up_right;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_up_right;
+        }
+        else{
+            sprite_index = spr_zombie_stance_up_right;
+        }
+        break;
+    case Facing.Right:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_right;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_right;
+        }
+        else{
+            sprite_index = spr_zombie_stance_right;
+        }
+        break;
+    case Facing.Left:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_left;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_left;
+        }
+        else{
+            sprite_index = spr_zombie_stance_left;
+        }
+        break;
+    case Facing.Down:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_down;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_down;
+        }
+        else{
+            sprite_index = spr_zombie_stance_down;
+        }
+        break;
+    case Facing.DownRight:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_down_right;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_down_right;
+        }
+        else{
+            sprite_index = spr_zombie_stance_down_right;
+        }
+        break;
+    case Facing.DownLeft:
+        if(speed &gt; 0){
+            sprite_index = spr_zombie_move_down_left;
+        }
+        else if(isNextToPlayer){
+            sprite_index = spr_zombie_slam_down_left;
+        }
+        else{
+            sprite_index = spr_zombie_stance_down_left;
+        }
+        break;
+}
 </string>
           </argument>
         </arguments>
