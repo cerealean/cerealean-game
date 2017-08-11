@@ -26,17 +26,37 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="hero">
-      <sprites name="stance">
-        <sprite>sprites\spr_hero_stance_left</sprite>
-        <sprite>sprites\spr_hero_stance_up</sprite>
-        <sprite>sprites\spr_hero_stance_down</sprite>
-        <sprite>sprites\spr_hero_stance_right</sprite>
+      <sprites name="clothes">
+        <sprites name="stance">
+          <sprite>sprites\spr_hero_stance_left</sprite>
+          <sprite>sprites\spr_hero_stance_up</sprite>
+          <sprite>sprites\spr_hero_stance_down</sprite>
+          <sprite>sprites\spr_hero_stance_right</sprite>
+        </sprites>
+        <sprites name="run">
+          <sprite>sprites\spr_hero_run_left</sprite>
+          <sprite>sprites\spr_hero_run_up</sprite>
+          <sprite>sprites\spr_hero_run_right</sprite>
+          <sprite>sprites\spr_hero_run_down</sprite>
+        </sprites>
       </sprites>
-      <sprites name="run">
-        <sprite>sprites\spr_hero_run_left</sprite>
-        <sprite>sprites\spr_hero_run_up</sprite>
-        <sprite>sprites\spr_hero_run_right</sprite>
-        <sprite>sprites\spr_hero_run_down</sprite>
+      <sprites name="head">
+        <sprites name="stance">
+          <sprites name="long hair">
+            <sprite>sprites\spr_long_hair_stance_left</sprite>
+            <sprite>sprites\spr_long_hair_stance_up</sprite>
+            <sprite>sprites\spr_long_hair_stance_right</sprite>
+            <sprite>sprites\spr_long_hair_stance_down</sprite>
+          </sprites>
+        </sprites>
+        <sprites name="run">
+          <sprites name="long hair">
+            <sprite>sprites\spr_long_hair_run_left</sprite>
+            <sprite>sprites\spr_long_hair_run_up</sprite>
+            <sprite>sprites\spr_long_hair_run_right</sprite>
+            <sprite>sprites\spr_long_hair_run_down</sprite>
+          </sprites>
+        </sprites>
       </sprites>
     </sprites>
     <sprite>sprites\spr_foo</sprite>
@@ -89,6 +109,7 @@
     <script>scripts\IsNextToPlayer.gml</script>
     <script>scripts\GetStepsFromSeconds.gml</script>
     <script>scripts\IsNextStepFree.gml</script>
+    <script>scripts\SetLocationToPlayer.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="enemies">
@@ -97,6 +118,7 @@
     </objects>
     <objects name="hero">
       <object>objects\obj_hero</object>
+      <object>objects\obj_hero_head</object>
     </objects>
     <objects name="textures">
       <object>objects\obj_invisible_wall</object>
