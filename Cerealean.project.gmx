@@ -55,6 +55,10 @@
             <sprite>sprites\spr_long_hair_stance_up</sprite>
             <sprite>sprites\spr_long_hair_stance_right</sprite>
             <sprite>sprites\spr_long_hair_stance_down</sprite>
+            <sprite>sprites\spr_long_hair_stance_up_left</sprite>
+            <sprite>sprites\spr_long_hair_stance_up_right</sprite>
+            <sprite>sprites\spr_long_hair_stance_down_right</sprite>
+            <sprite>sprites\spr_long_hair_stance_down_left</sprite>
           </sprites>
         </sprites>
         <sprites name="run">
@@ -63,6 +67,10 @@
             <sprite>sprites\spr_long_hair_run_up</sprite>
             <sprite>sprites\spr_long_hair_run_right</sprite>
             <sprite>sprites\spr_long_hair_run_down</sprite>
+            <sprite>sprites\spr_long_hair_run_up_left</sprite>
+            <sprite>sprites\spr_long_hair_run_up_right</sprite>
+            <sprite>sprites\spr_long_hair_run_down_right</sprite>
+            <sprite>sprites\spr_long_hair_run_down_left</sprite>
           </sprites>
         </sprites>
       </sprites>
