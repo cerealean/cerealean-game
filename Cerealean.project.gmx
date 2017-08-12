@@ -28,24 +28,24 @@
     <sprites name="hero">
       <sprites name="clothes">
         <sprites name="stance">
-          <sprite>sprites\spr_hero_stance_left</sprite>
-          <sprite>sprites\spr_hero_stance_up_left</sprite>
-          <sprite>sprites\spr_hero_stance_up</sprite>
-          <sprite>sprites\spr_hero_stance_up_right</sprite>
-          <sprite>sprites\spr_hero_stance_down</sprite>
-          <sprite>sprites\spr_hero_stance_right</sprite>
-          <sprite>sprites\spr_hero_stance_down_right</sprite>
-          <sprite>sprites\spr_hero_stance_down_left</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_left</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_up_left</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_up</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_up_right</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_down</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_right</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_down_right</sprite>
+          <sprite>sprites\spr_hero_clothes_stance_down_left</sprite>
         </sprites>
         <sprites name="run">
-          <sprite>sprites\spr_hero_run_left</sprite>
-          <sprite>sprites\spr_hero_run_up_left</sprite>
-          <sprite>sprites\spr_hero_run_up_right</sprite>
-          <sprite>sprites\spr_hero_run_up</sprite>
-          <sprite>sprites\spr_hero_run_right</sprite>
-          <sprite>sprites\spr_hero_run_down</sprite>
-          <sprite>sprites\spr_hero_run_down_right</sprite>
-          <sprite>sprites\spr_hero_run_down_left</sprite>
+          <sprite>sprites\spr_hero_clothes_run_left</sprite>
+          <sprite>sprites\spr_hero_clothes_run_up_left</sprite>
+          <sprite>sprites\spr_hero_clothes_run_up_right</sprite>
+          <sprite>sprites\spr_hero_clothes_run_up</sprite>
+          <sprite>sprites\spr_hero_clothes_run_right</sprite>
+          <sprite>sprites\spr_hero_clothes_run_down</sprite>
+          <sprite>sprites\spr_hero_clothes_run_down_right</sprite>
+          <sprite>sprites\spr_hero_clothes_run_down_left</sprite>
         </sprites>
       </sprites>
       <sprites name="head">
