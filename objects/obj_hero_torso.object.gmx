@@ -83,12 +83,44 @@ switch(dir){
             sprite_index = spr_hero_stance_up;
         }
         break;
+    case Facing.UpRight:
+        if(global.isHeroMoving){
+            sprite_index = spr_hero_run_up_right;
+        }
+        else{
+            sprite_index = spr_hero_stance_up_right;
+        }
+        break;
+    case Facing.UpLeft:
+        if(global.isHeroMoving){
+            sprite_index = spr_hero_run_up_left;
+        }
+        else{
+            sprite_index = spr_hero_stance_up_left;
+        }
+        break;
     case Facing.Down:
         if (global.isHeroMoving){
             sprite_index = spr_hero_run_down;
         }
         else {
             sprite_index = spr_hero_stance_down;
+        }
+        break;
+    case Facing.DownRight:
+        if (global.isHeroMoving){
+            sprite_index = spr_hero_run_down_right;
+        }
+        else {
+            sprite_index = spr_hero_stance_down_right;
+        }
+        break;
+    case Facing.DownLeft:
+        if (global.isHeroMoving){
+            sprite_index = spr_hero_run_down_left;
+        }
+        else {
+            sprite_index = spr_hero_stance_down_left;
         }
         break;
     case Facing.Left:
