@@ -56,6 +56,45 @@ if(instance_number(obj_hero_torso) == 0){
             <kind>1</kind>
             <string>///Create variables
 global.isHeroMoving = false;
+global.isHeroAttacking = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Attacking
+var newX = x + lengthdir_x(30, direction);
+var newY = y + lengthdir_y(30, direction);
+
+with(obj_enemy_controller){
+    if(collision_line(obj_hero.x,obj_hero.y,newX,newY,id,false,false)){
+        instance_destroy();
+    }
+}
+
+if(keyboard_check(vk_space)){
+    alarm[1] = GetStepsFromSeconds(1.5);
+}
+else{
+    global.isHeroAttacking = false;
+}
 </string>
           </argument>
         </arguments>
@@ -83,61 +122,87 @@ var MOVELEFT = keyboard_check(vk_left);
 var MOVERIGHT = keyboard_check(vk_right);
 var MOVEUP = keyboard_check(vk_up);
 var MOVEDOWN = keyboard_check(vk_down);
-var FIRE = keyboard_check(vk_space);
- 
-if (MOVELEFT &amp;&amp; place_free(x - global.walkSpeed, y)) 
-{ 
-    if(MOVEUP &amp;&amp; place_free(x, y - global.walkSpeed)){
-        y -= global.walkSpeed;
-        direction = 135;
-    }
-    else if(MOVEDOWN &amp;&amp; place_free(x, y + global.walkSpeed)){
-        y += global.walkSpeed;
-        direction = 225;
-    }
-    else{
-        direction = 180;
-    }
-    x -= global.walkSpeed;
-    global.isHeroMoving = true;
-}
- 
-if (MOVERIGHT &amp;&amp; place_free(x + global.walkSpeed, y)) 
-{ 
-    if(MOVEUP &amp;&amp; place_free(x, y - global.walkSpeed)){
-        y -= global.walkSpeed;
-        direction = 45;
-    }
-    else if(MOVEDOWN &amp;&amp; place_free(x, y + global.walkSpeed)){
-        y += global.walkSpeed;
-        direction = 315;
-    }
-    else {
-        direction = 0;
-    }
-    x += global.walkSpeed;
-    global.isHeroMoving = true;
-}
- 
-if (MOVEUP &amp;&amp; !MOVERIGHT &amp;&amp; !MOVELEFT &amp;&amp; place_free(x, y - global.walkSpeed)) 
-{ 
-    y -= global.walkSpeed;
-    direction = 90;
-    global.isHeroMoving = true;
-}
- 
-if (MOVEDOWN &amp;&amp; !MOVERIGHT &amp;&amp; !MOVELEFT &amp;&amp; place_free(x, y + global.walkSpeed)) 
-{ 
-    y += global.walkSpeed;
-    direction = 270;
-    global.isHeroMoving = true;
-}
 
+if(!global.isHeroAttacking){
+    if (MOVELEFT &amp;&amp; place_free(x - global.walkSpeed, y)) 
+    { 
+        if(MOVEUP &amp;&amp; place_free(x, y - global.walkSpeed)){
+            y -= global.walkSpeed;
+            direction = 135;
+        }
+        else if(MOVEDOWN &amp;&amp; place_free(x, y + global.walkSpeed)){
+            y += global.walkSpeed;
+            direction = 225;
+        }
+        else{
+            direction = 180;
+        }
+        x -= global.walkSpeed;
+        global.isHeroMoving = true;
+    }
+     
+    if (MOVERIGHT &amp;&amp; place_free(x + global.walkSpeed, y)) 
+    { 
+        if(MOVEUP &amp;&amp; place_free(x, y - global.walkSpeed)){
+            y -= global.walkSpeed;
+            direction = 45;
+        }
+        else if(MOVEDOWN &amp;&amp; place_free(x, y + global.walkSpeed)){
+            y += global.walkSpeed;
+            direction = 315;
+        }
+        else {
+            direction = 0;
+        }
+        x += global.walkSpeed;
+        global.isHeroMoving = true;
+    }
+     
+    if (MOVEUP &amp;&amp; !MOVERIGHT &amp;&amp; !MOVELEFT &amp;&amp; place_free(x, y - global.walkSpeed)) 
+    { 
+        y -= global.walkSpeed;
+        direction = 90;
+        global.isHeroMoving = true;
+    }
+     
+    if (MOVEDOWN &amp;&amp; !MOVERIGHT &amp;&amp; !MOVELEFT &amp;&amp; place_free(x, y + global.walkSpeed)) 
+    { 
+        y += global.walkSpeed;
+        direction = 270;
+        global.isHeroMoving = true;
+    }
+}
 if(keyboard_check(vk_nokey)){
     global.isHeroMoving = false;
 }
-
 image_speed = (global.walkSpeed/room_speed);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Player Attack
+var isMelee = keyboard_check(vk_space);
+
+if(isMelee &amp;&amp; alarm[1] == -1){
+    global.isHeroAttacking = true;
+    alarm[1] = 1;
+}
 </string>
           </argument>
         </arguments>

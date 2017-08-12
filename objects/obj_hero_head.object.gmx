@@ -79,6 +79,9 @@ switch(dir){
         if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_up;
         }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_up;
+        }
         else{
             sprite_index = spr_long_hair_stance_up;
         }
@@ -86,6 +89,9 @@ switch(dir){
     case Facing.UpLeft:
         if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_up_left;
+        }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_up_left;
         }
         else{
             sprite_index = spr_long_hair_stance_up_left;
@@ -95,6 +101,9 @@ switch(dir){
         if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_up_right;
         }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_up_right;
+        }
         else{
             sprite_index = spr_long_hair_stance_up_right;
         }
@@ -102,6 +111,9 @@ switch(dir){
     case Facing.Down:
         if (global.isHeroMoving){
             sprite_index = spr_long_hair_run_down;
+        }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_down;
         }
         else {
             sprite_index = spr_long_hair_stance_down;
@@ -111,6 +123,9 @@ switch(dir){
         if (global.isHeroMoving){
             sprite_index = spr_long_hair_run_down_right;
         }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_down_right;
+        }
         else {
             sprite_index = spr_long_hair_stance_down_right;
         }
@@ -118,6 +133,9 @@ switch(dir){
     case Facing.DownLeft:
         if (global.isHeroMoving){
             sprite_index = spr_long_hair_run_down_left;
+        }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_down_left;
         }
         else {
             sprite_index = spr_long_hair_stance_down_left;
@@ -127,6 +145,9 @@ switch(dir){
         if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_left;
         }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_left;
+        }
         else {
             sprite_index = spr_long_hair_stance_left;
         }
@@ -134,6 +155,9 @@ switch(dir){
     case Facing.Right:
         if(global.isHeroMoving){
             sprite_index = spr_long_hair_run_right;
+        }
+        else if(global.isHeroAttacking){
+            sprite_index = spr_hero_long_hair_melee_right;
         }
         else {
             sprite_index = spr_long_hair_stance_right;
