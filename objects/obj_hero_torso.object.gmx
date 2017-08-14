@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>///Set variables
-event_inherited();
 image_speed = (global.walkSpeed/room_speed);
 </string>
           </argument>

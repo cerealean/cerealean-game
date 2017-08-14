@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>///Set variables
-event_inherited();
 image_speed = (global.walkSpeed/room_speed);
 </string>
           </argument>
@@ -73,6 +72,7 @@ SetLocationToPlayer();
           <argument>
             <kind>1</kind>
             <string>///Determine direction sprite
+/*
 var dir = DetermineFacingDirection(obj_hero.direction);
 switch(dir){
     case Facing.Up:
@@ -164,6 +164,7 @@ switch(dir){
         }
         break;
 }
+*/
 </string>
           </argument>
         </arguments>

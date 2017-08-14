@@ -26,14 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>///Create parts
-if(instance_number(obj_hero_torso) == 0){
-    var torso = instance_create(x,y,obj_hero_torso);
-    var head = instance_create(x,y,obj_hero_head);
-    head.parent = id;
-    torso.parent = id;
-    head.depth = depth - 1;
-    torso.depth = depth - 1;
-}
+var torso = instance_create(x,y,obj_hero_torso);
+var head = instance_create(x,y,obj_hero_head);
+head.parent = id;
+torso.parent = id;
+head.depth = depth - 1;
+torso.depth = depth - 1;
 </string>
           </argument>
         </arguments>
