@@ -77,6 +77,16 @@
           <sprite>sprites\spr_hero_clothes_hit_die_up_left</sprite>
           <sprite>sprites\spr_hero_clothes_hit_die_left</sprite>
         </sprites>
+        <sprites name="cast spell">
+          <sprite>sprites\spr_hero_clothes_cast_spell_left</sprite>
+          <sprite>sprites\spr_hero_clothes_cast_spell_up_left</sprite>
+          <sprite>sprites\spr_hero_clothes_cast_spell_up</sprite>
+          <sprite>sprites\spr_hero_clothes_cast_spell_up_right</sprite>
+          <sprite>sprites\spr_hero_clothes_cast_spell_right</sprite>
+          <sprite>sprites\spr_hero_clothes_cast_spell_down_right</sprite>
+          <sprite>sprites\spr_hero_clothes_cast_spell_down</sprite>
+          <sprite>sprites\spr_hero_clothes_cast_spell_down_left</sprite>
+        </sprites>
       </sprites>
       <sprites name="head">
         <sprites name="long hair">
