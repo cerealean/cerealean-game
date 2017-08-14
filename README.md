@@ -2,6 +2,10 @@
 
 ## Attributions
 
+*This is where I'm keeping notes for the time being. I'll be giving even more credit in the future :)*
+
+#### All below are under CC-3.0 with no modifications made. http://creativecommons.org/licenses/by/3.0/
+
 - https://opengameart.org/content/grassland-tileset
 ARTISTS (attribution required by CC-BY-SA 3.0 or CC-BY 3.0)
 
@@ -23,3 +27,6 @@ A few weapons loosely inspired by Naraphim (CC-BY-SA) http://naraphim.deviantart
 
 - https://opengameart.org/content/zombie-sprites
 Clint Bellanger
+
+- https://opengameart.org/content/fantasy-ui-elements-by-ravenmore
+  - http://dycha.net
