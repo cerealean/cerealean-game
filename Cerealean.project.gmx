@@ -134,7 +134,6 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\SetupGameGlobals.gml</script>
     <scripts name="Enums">
       <script>scripts\Directions.gml</script>
     </scripts>
@@ -144,6 +143,10 @@
     <script>scripts\GetStepsFromSeconds.gml</script>
     <script>scripts\IsNextStepFree.gml</script>
     <script>scripts\SetLocationToPlayer.gml</script>
+    <scripts name="Setup">
+      <script>scripts\SetupGameGlobals.gml</script>
+      <script>scripts\SetupSpriteMaps.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="enemies">
@@ -154,6 +157,7 @@
       <object>objects\obj_hero</object>
       <object>objects\obj_hero_head</object>
       <object>objects\obj_hero_torso</object>
+      <object>objects\obj_hero_weapon</object>
     </objects>
     <objects name="textures">
       <object>objects\obj_invisible_wall</object>
