@@ -130,6 +130,16 @@
             <sprite>sprites\spr_hero_long_hair_block_down</sprite>
             <sprite>sprites\spr_hero_long_hair_block_down_left</sprite>
           </sprites>
+          <sprites name="hit and die">
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_left</sprite>
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_up_left</sprite>
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_up</sprite>
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_up_right</sprite>
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_right</sprite>
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_down_right</sprite>
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_down</sprite>
+            <sprite>sprites\spr_hero_long_hair_hit_and_die_down_left</sprite>
+          </sprites>
         </sprites>
       </sprites>
     </sprites>
