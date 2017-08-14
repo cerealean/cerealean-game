@@ -77,7 +77,6 @@ var action = GetSpriteActionString();
 var facing = GetFacingSpriteString();
 var spacer = "_";
 var spriteKey = "spr_hero"+spacer+chosenHead+spacer+action+spacer+facing;
-show_debug_message(spriteKey);
 sprite_index = global.sprites[? spriteKey];
 </string>
           </argument>
