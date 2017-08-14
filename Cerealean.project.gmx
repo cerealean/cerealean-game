@@ -210,6 +210,7 @@
     <scripts name="SpriteHelpers">
       <script>scripts\GetFacingSpriteString.gml</script>
       <script>scripts\GetSpriteActionString.gml</script>
+      <script>scripts\CanWalkAt.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
