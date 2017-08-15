@@ -188,6 +188,16 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprites name="hud">
+      <sprite>sprites\spr_bar_no_fill</sprite>
+      <sprite>sprites\spr_bar_stamina_fill</sprite>
+      <sprite>sprites\spr_bar_mana_fill</sprite>
+      <sprite>sprites\spr_bar_health_fill</sprite>
+      <sprite>sprites\spr_bar_health_end</sprite>
+      <sprite>sprites\spr_bar_mana_end</sprite>
+      <sprite>sprites\spr_bar_stamina_end</sprite>
+      <sprite>sprites\spr_bar_stats_end</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grassland</background>
@@ -227,6 +237,11 @@
     <objects name="textures">
       <object>objects\obj_invisible_wall</object>
       <object>objects\obj_solid</object>
+    </objects>
+    <objects name="hud">
+      <object>objects\obj_bar_stats_end</object>
+      <object>objects\obj_bar_health_fill</object>
+      <object>objects\obj_bar_controller</object>
     </objects>
   </objects>
   <rooms name="rooms">
