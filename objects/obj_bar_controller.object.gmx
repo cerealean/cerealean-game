@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>var statsEnd = instance_create(x,y,obj_bar_stats_end);
+var healthBar = instance_create(x,y,obj_bar_health_fill);
 statsEnd.parent = id;
+healthBar.parent = id;
 </string>
           </argument>
         </arguments>
