@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Draw bars
+
+//Health
 draw_healthbar(
     view_xview[0] + 2,
     view_yview[0] + 2,
@@ -39,12 +41,13 @@ draw_healthbar(
     true,
     true);
     
+//Mana
 draw_healthbar(
     view_xview[0] + 2,
     view_yview[0] + 24,
     view_xview[0] + 200,
     view_yview[0] + 42,
-    100,
+    (global.mana / global.maxMana) * 100,
     c_black,
     c_silver,
     c_blue,
