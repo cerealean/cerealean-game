@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,10 +25,32 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var statsEnd = instance_create(x,y,obj_bar_stats_end);
-var healthBar = instance_create(x,y,obj_bar_health_fill);
-statsEnd.parent = id;
-healthBar.parent = id;
+            <string>///Draw bars
+draw_healthbar(
+    view_xview[0] + 2,
+    view_yview[0] + 2,
+    view_xview[0] + 200,
+    view_yview[0] + 20,
+    (health/global.maxHealth) * 100,
+    c_black,
+    c_red,
+    c_green,
+    0,
+    true,
+    true);
+    
+draw_healthbar(
+    view_xview[0] + 2,
+    view_yview[0] + 24,
+    view_xview[0] + 200,
+    view_yview[0] + 42,
+    100,
+    c_black,
+    c_silver,
+    c_blue,
+    0,
+    true,
+    true);
 </string>
           </argument>
         </arguments>

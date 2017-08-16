@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_healthbar(
+            <string>/*draw_healthbar(
     view_xview[0] + woffset,
     view_yview[0] + 8,
     view_xview[0] + 400,
@@ -59,7 +59,7 @@
     c_green,
     0,
     true,
-    true);
+    true);*/
 </string>
           </argument>
         </arguments>

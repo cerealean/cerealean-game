@@ -239,8 +239,6 @@
       <object>objects\obj_solid</object>
     </objects>
     <objects name="hud">
-      <object>objects\obj_bar_stats_end</object>
-      <object>objects\obj_bar_health_fill</object>
       <object>objects\obj_bar_controller</object>
     </objects>
   </objects>
