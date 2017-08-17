@@ -240,6 +240,7 @@
     </objects>
     <objects name="hud">
       <object>objects\obj_bar_controller</object>
+      <object>objects\obj_bar_stats_end</object>
     </objects>
   </objects>
   <rooms name="rooms">
