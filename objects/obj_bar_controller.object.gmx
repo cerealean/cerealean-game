@@ -3,12 +3,12 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-9999</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -29,10 +29,10 @@
 
 //Health
 draw_healthbar(
-    view_xview[0] + 2,
-    view_yview[0] + 2,
-    view_xview[0] + 200,
-    view_yview[0] + 20,
+    2,
+    2,
+    200,
+    20,
     (health/global.maxHealth) * 100,
     c_black,
     c_red,
@@ -43,10 +43,10 @@ draw_healthbar(
     
 //Mana
 draw_healthbar(
-    view_xview[0] + 2,
-    view_yview[0] + 24,
-    view_xview[0] + 200,
-    view_yview[0] + 42,
+    2,
+    24,
+    200,
+    42,
     (global.mana / global.maxMana) * 100,
     c_black,
     c_silver,
