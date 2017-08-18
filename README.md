@@ -28,5 +28,5 @@ A few weapons loosely inspired by Naraphim (CC-BY-SA) http://naraphim.deviantart
 - https://opengameart.org/content/zombie-sprites
 Clint Bellanger
 
-- https://opengameart.org/content/fantasy-ui-elements-by-ravenmore
-  - http://dycha.net
+- https://opengameart.org/content/golden-ui-bigger-than-ever-edition
+  - Bush https://opengameart.org/users/buch
