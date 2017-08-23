@@ -1,2 +1,1 @@
-draw_self();
-
+draw_sprite(spr_bar_stats_end,-1,x,y);
