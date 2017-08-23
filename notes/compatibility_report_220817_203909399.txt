@@ -1,0 +1,86 @@
+Converting GML script : ${project_dir}/scripts/IsNextToPlayer/IsNextToPlayer.gml
+Converted description : /// @description IsNextToPlayer(speed
+
+Converting GML script : ${project_dir}/scripts/SetLocationToPlayer/SetLocationToPlayer.gml
+Converted description : /// @description SetLocationToPlayer(
+
+Converting GML script : ${project_dir}/scripts/SetObjectSpeed/SetObjectSpeed.gml
+Converted description : /// @description SetObjectSpeed(newSpeed
+
+Converting GML script : ${project_dir}/scripts/GetStepsFromSeconds/GetStepsFromSeconds.gml
+Converted description : /// @description GetStepsFromSeconds(seconds
+
+Converting GML script : ${project_dir}/scripts/DetermineFacingDirection/DetermineFacingDirection.gml
+Converted description : /// @description DetermineFacingDirection(dir
+
+Converting GML script : ${project_dir}/objects/obj_zombie/Alarm_1.gml
+Converted description : /// @description Slam attac
+
+Converting GML script : ${project_dir}/objects/obj_zombie/Step_0.gml
+Converted description : /// @description Movement and stance sprit
+
+Converting GML script : ${project_dir}/objects/obj_hero_head/Create_0.gml
+Converted description : /// @description Set variable
+
+Converting GML script : ${project_dir}/objects/obj_hero_head/Step_0.gml
+Converted description : /// @description Set Locatio
+
+Converting GML script : ${project_dir}/objects/obj_hero/Create_0.gml
+Converted description : /// @description Create part
+
+Converting GML script : ${project_dir}/objects/obj_hero/Alarm_1.gml
+Converted description : /// @description Attackin
+
+Converting GML script : ${project_dir}/objects/obj_hero/Step_0.gml
+Converted description : /// @description Move Playe
+
+Converting GML script : ${project_dir}/scripts/GetFacingSpriteString/GetFacingSpriteString.gml
+Converted description : /// @description GetFacingSpriteString(
+
+Converting GML script : ${project_dir}/objects/obj_enemy_controller/Step_0.gml
+Converted description : /// @description Deat
+
+Converting GML script : ${project_dir}/objects/obj_enemy_controller/Collision_7cc6d053-570b-41f8-9068-36a20e435cd6.gml
+Converted description : /// @description Turn enemy aroun
+
+Converting GML script : ${project_dir}/scripts/SetupGameGlobals/SetupGameGlobals.gml
+Converted description : /// @description SetupGameGlobals(
+
+Converting GML script : ${project_dir}/scripts/CanWalkAt/CanWalkAt.gml
+Converted description : /// @description CanWalkAt(xx,yy
+
+Converting GML script : ${project_dir}/scripts/GetSpriteActionString/GetSpriteActionString.gml
+Converted description : /// @description GetSpriteActionString(
+
+Converting GML script : ${project_dir}/scripts/IsNextStepFree/IsNextStepFree.gml
+Converted description : /// @description IsNextStepFree(speed
+
+Converting GML script : ${project_dir}/objects/obj_hero_torso/Create_0.gml
+Converted description : /// @description Set variable
+
+Converting GML script : ${project_dir}/objects/obj_hero_torso/Step_0.gml
+Converted description : /// @description Set Locatio
+
+Converting GML script : ${project_dir}/objects/obj_hero_weapon/Create_0.gml
+Converted description : /// @description Set variable
+
+Converting GML script : ${project_dir}/objects/obj_hero_weapon/Step_0.gml
+Converted description : /// @description Set Locatio
+
+Converting GML script : ${project_dir}/scripts/SetupSpriteMaps/SetupSpriteMaps.gml
+Converted description : /// @description SetupSpriteMaps(
+
+Converting GML script : ${project_dir}/objects/obj_bar_controller/Draw_64.gml
+Converted description : /// @description Draw bar
+
+macOS icon ${options_dir}/mac/icons/icon512.png written out as 32-bit.
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2.
+game speed set to 30
+added compatibility script action/action_bounce.gml
+added compatibility script action/action_set_alarm.gml
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script tile/tile_add.gml
+added compatibility script action/__init_action.gml
+added compatibility script __init_global.gml
+added compatibility script __global_object_depths.gml
