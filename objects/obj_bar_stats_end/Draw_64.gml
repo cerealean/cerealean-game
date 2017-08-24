@@ -1,9 +1,14 @@
+/// @description Draw Health & Mana
+
+//Stats end (left)
 draw_sprite(spr_bar_stats_end,-1,x,y);
-var healthChunks = health / 10;
-var maxHealthChunks = global.maxHealth / 10;
+
+//Draw health sprites
+var healthChunks = health / chunkSize;
+var maxHealthChunks = global.maxHealth / chunkSize;
 var guiHealthX = statsEndWidth;
-var guiHealthY = display_get_gui_height() - statsEndHeight + 24;
-var index = 0;
+var guiHealthY = guiHeight - statsEndHeight + 25;
+var index;
 var healthPercentage = (health / global.maxHealth) * 100;
 for(index = 0; index < healthChunks; index++){
 	draw_sprite(spr_bar_health_fill,-1,guiHealthX,guiHealthY);
@@ -17,5 +22,5 @@ if(maxHealthChunks > healthChunks){
 	}
 }
 draw_sprite(spr_bar_health_end,-1,guiHealthX,guiHealthY);
-guiHealthX += sprite_get_width(spr_bar_health_end);
-draw_text(guiHealthX,guiHealthY,string(healthPercentage) + "%")
+guiHealthX += healthEndWidth;
+draw_text(guiHealthX,guiHealthY-10,string(healthPercentage) + "%")
