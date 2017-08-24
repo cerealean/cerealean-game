@@ -2471,6 +2471,25 @@
             }
         },
         {
+            "Key": "96e5cc8f-239d-427a-a6ad-9c1647e6fca4",
+            "Value": {
+                "id": "5991d2e1-a102-4d12-92e1-95901d73b097",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/HandlePlayerDeath\/HandlePlayerDeath.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9874dd4d-6e54-49f4-ad11-ba1013e8c9d6",
             "Value": {
                 "id": "1b9e6831-cb9b-4616-b9b5-515a2f353b15",
@@ -3725,6 +3744,25 @@
             }
         },
         {
+            "Key": "da29436b-04c2-4ee1-b99f-edde2790ad1a",
+            "Value": {
+                "id": "6710c7ac-352e-4b27-bdb7-c2a9963eb496",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/da29436b-04c2-4ee1-b99f-edde2790ad1a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "da3e0645-9398-44d1-b32c-79e88c4e47e8",
             "Value": {
                 "id": "ad3e5394-489c-4e5c-a852-2d400a964910",
@@ -4258,7 +4296,8 @@
         "e8ccbe0f-c858-45f2-b415-7e6e7c038828",
         "426236a7-42ab-4c81-9f0e-6037e87c5371",
         "d8e280c4-2344-42dd-ac83-82f1c5e930f7",
-        "80f7ffa4-a2e4-4c4a-9d94-04c95f71912a"
+        "80f7ffa4-a2e4-4c4a-9d94-04c95f71912a",
+        "96e5cc8f-239d-427a-a6ad-9c1647e6fca4"
     ],
     "tutorial": ""
 }

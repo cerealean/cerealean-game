@@ -68,8 +68,6 @@ if(isMelee && alarm[1] == -1){
 
 ///Death
 if(health <= 0){
-    room_instance_clear(room);
-    health = global.maxHealth;
-    room_goto(rm_test);
+    HandlePlayerDeath();
 }
 

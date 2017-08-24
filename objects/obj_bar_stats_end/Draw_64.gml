@@ -31,7 +31,7 @@ var maxManaChunks = global.maxMana / chunkSize;
 var manaPercentage = global.mana / global.maxMana * 100;
 guiHealthX = statsEndWidth;
 guiHealthY = guiHeight - (statsEndHeight / 2);
-for(index = 0; index < healthChunks; index++){
+for(index = 0; index < manaChunks; index++){
 	draw_sprite(spr_bar_mana_fill,-1,guiHealthX,guiHealthY);
 	guiHealthX += fillWidth;
 }
