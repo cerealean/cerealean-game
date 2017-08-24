@@ -23,4 +23,25 @@ if(maxHealthChunks > healthChunks){
 }
 draw_sprite(spr_bar_health_end,-1,guiHealthX,guiHealthY);
 guiHealthX += healthEndWidth;
-draw_text(guiHealthX,guiHealthY-10,string(healthPercentage) + "%")
+draw_text(guiHealthX,guiHealthY-fillHeightCenter,string(healthPercentage) + "%");
+
+//Draw mana sprites
+var manaChunks = global.mana / chunkSize;
+var maxManaChunks = global.maxMana / chunkSize;
+var manaPercentage = global.mana / global.maxMana * 100;
+guiHealthX = statsEndWidth;
+guiHealthY = guiHeight - (statsEndHeight / 2);
+for(index = 0; index < healthChunks; index++){
+	draw_sprite(spr_bar_mana_fill,-1,guiHealthX,guiHealthY);
+	guiHealthX += fillWidth;
+}
+if(maxManaChunks > manaChunks){
+	var chunkDifference = maxManaChunks - manaChunks;
+	for(index = 0; index < chunkDifference; index++){
+		draw_sprite(spr_bar_no_fill,-1,guiHealthX,guiHealthY);
+		guiHealthX += fillWidth;
+	}
+}
+draw_sprite(spr_bar_mana_end,-1,guiHealthX,guiHealthY);
+guiHealthX += healthEndWidth;
+draw_text(guiHealthX,guiHealthY-fillHeightCenter,string(manaPercentage) + "%");
