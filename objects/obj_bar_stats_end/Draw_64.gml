@@ -1,4 +1,4 @@
-/// @description Draw Health & Mana
+/// @description Draw Health & Mana & Stamina
 
 //Stats end (left)
 draw_sprite(spr_bar_stats_end,-1,x,y);
@@ -23,7 +23,7 @@ if(maxHealthChunks > healthChunks){
 }
 draw_sprite(spr_bar_health_end,-1,guiHealthX,guiHealthY);
 guiHealthX += healthEndWidth;
-draw_text(guiHealthX,guiHealthY-fillHeightCenter,string(healthPercentage) + "%");
+//draw_text(guiHealthX,guiHealthY-fillHeightCenter,string(healthPercentage) + "%");
 
 //Draw mana sprites
 var manaChunks = global.mana / chunkSize;
@@ -44,4 +44,9 @@ if(maxManaChunks > manaChunks){
 }
 draw_sprite(spr_bar_mana_end,-1,guiHealthX,guiHealthY);
 guiHealthX += healthEndWidth;
-draw_text(guiHealthX,guiHealthY-fillHeightCenter,string(manaPercentage) + "%");
+//draw_text(guiHealthX,guiHealthY-fillHeightCenter,string(manaPercentage) + "%");
+
+//Draw stamina sprites
+guiHealthX = statsEndWidth;
+guiHealthY = guiHeight - 23;
+draw_sprite(spr_bar_stamina_end,-1,guiHealthX,guiHealthY);
