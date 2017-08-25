@@ -395,7 +395,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/rm_game_menu\/rm_game_menu.yy",
+                "resourcePath": "rooms\/rm_game_setup\/rm_game_setup.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -454,6 +454,25 @@
                 ],
                 "resourcePath": "sprites\/spr_hero_long_hair_run_up_left\/spr_hero_long_hair_run_up_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "19679164-d539-4793-985e-f9a65590f5cc",
+            "Value": {
+                "id": "09940a96-b5e8-4694-b8f3-1b553adedd7f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/19679164-d539-4793-985e-f9a65590f5cc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -739,6 +758,25 @@
                 ],
                 "resourcePath": "sprites\/spr_zombie_slam_down_left\/spr_zombie_slam_down_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "30f902c4-8659-422f-8ef8-80c6ca4ea148",
+            "Value": {
+                "id": "6e3cb323-d646-42cd-9d56-9d4082f3cf86",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/30f902c4-8659-422f-8ef8-80c6ca4ea148.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1065,6 +1103,25 @@
             }
         },
         {
+            "Key": "3e68f922-3318-458a-9b3e-c99f99d5924c",
+            "Value": {
+                "id": "b3a6b3ac-275f-4851-896d-626c14809acd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_button\/spr_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40211a06-f6ca-4084-93fb-d3849a87a131",
             "Value": {
                 "id": "7888cf08-74ed-40d2-b7cc-2e39f57bb8a2",
@@ -1233,6 +1290,25 @@
                 ],
                 "resourcePath": "views\/47c93d7d-6595-4847-8d94-788e24bc4444.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "47e3cf90-0cec-44a5-8162-600f8eaf5a77",
+            "Value": {
+                "id": "8a9b4145-6585-4871-a73f-a02eb7df79aa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_button\/obj_button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2639,6 +2715,25 @@
                 ],
                 "resourcePath": "sprites\/spr_hero_clothes_run_down\/spr_hero_clothes_run_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e046e28-e5b4-421c-980f-d28143d1ec66",
+            "Value": {
+                "id": "e3fefe51-14ce-4bf8-853c-99745c5584aa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fnt_menu_button\/fnt_menu_button.yy",
+                "resourceType": "GMFont"
             }
         },
         {
