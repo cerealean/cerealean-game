@@ -8,7 +8,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "30bd2b7a-65ed-4d73-a68b-c5a32f9972cf",
-        "166eecc6-c570-46bc-bce7-11e022961dae"
+        "166eecc6-c570-46bc-bce7-11e022961dae",
+        "123a5523-54d3-4bdf-ae6e-6cd0fb5c30a9"
     ],
     "IsDnD": false,
     "layers": [
@@ -27,7 +28,8 @@
             "inheritVisibility": false,
             "instances": [
                 {"name": "btn_NewGame","id": "30bd2b7a-65ed-4d73-a68b-c5a32f9972cf","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_btn_NewGame.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "btn_NewGame","objId": "47e3cf90-0cec-44a5-8162-600f8eaf5a77","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 352},
-                {"name": "btn_Exit","id": "166eecc6-c570-46bc-bce7-11e022961dae","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_btn_Exit.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "btn_Exit","objId": "47e3cf90-0cec-44a5-8162-600f8eaf5a77","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 448}
+                {"name": "btn_Exit","id": "166eecc6-c570-46bc-bce7-11e022961dae","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_btn_Exit.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "btn_Exit","objId": "47e3cf90-0cec-44a5-8162-600f8eaf5a77","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 544},
+                {"name": "btn_ToGameOptions","id": "123a5523-54d3-4bdf-ae6e-6cd0fb5c30a9","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_btn_ToGameOptions.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "btn_ToGameOptions","objId": "47e3cf90-0cec-44a5-8162-600f8eaf5a77","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 448}
             ],
             "layers": [
 
