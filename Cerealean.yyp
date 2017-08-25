@@ -1521,6 +1521,25 @@
             }
         },
         {
+            "Key": "579976d0-cf3a-40d6-9cf5-6d096c6c1e41",
+            "Value": {
+                "id": "a9f7f262-b290-4ff7-9aee-f96b03f81933",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_game_menu\/rm_game_menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "58f2bdb3-e338-4e99-9be5-f6e7d5a55596",
             "Value": {
                 "id": "586cbbac-6d67-4ad1-8dcb-fd31addfaa3d",
@@ -1746,6 +1765,25 @@
                 ],
                 "resourcePath": "views\/662cf2f3-ef3e-400a-a854-58de0833e449.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6769d4c3-5cfd-4a9e-ae17-b110f03adb5b",
+            "Value": {
+                "id": "1f3d381c-4c60-4590-b096-916a0eb8180f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/ButtonActions\/ButtonActions.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3117,6 +3155,25 @@
             }
         },
         {
+            "Key": "affcc42f-6715-4647-8e9d-da8f0eb881d3",
+            "Value": {
+                "id": "252e651b-4651-4d49-9e7e-36f6e23b3a5c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_menu_background\/spr_menu_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0671dd9-b51d-4785-8cf8-42a28a048b56",
             "Value": {
                 "id": "d69abb73-234e-4527-aff1-4d84f1afc0b8",
@@ -4400,6 +4457,7 @@
         "3d2d57cc-738f-4b30-9144-d8439b0fb58b",
         "9b78251d-5e41-4efa-8bb6-d6c5276ace27",
         "6b6f86ae-48ee-460c-8664-ae62f305e4b5",
+        "6769d4c3-5cfd-4a9e-ae17-b110f03adb5b",
         "2d72aef1-93d9-40fc-ad7b-5bfd05af5c86",
         "6f97113d-f15e-4305-8865-c013d72bde3e",
         "be3b0dd4-9b5d-442d-b038-dd8066da94e3",
