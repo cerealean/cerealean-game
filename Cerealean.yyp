@@ -4390,6 +4390,25 @@
             }
         },
         {
+            "Key": "f96953c0-96c6-4eb7-a300-ca0e4486294f",
+            "Value": {
+                "id": "e20abeeb-e3ee-449d-902c-7e22cbf7cd53",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_pause\/obj_pause.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fbc4dd26-6a8b-482c-b945-5f85b030b7fa",
             "Value": {
                 "id": "83f58e68-528d-434b-96e5-3cf2ceb26d4f",
